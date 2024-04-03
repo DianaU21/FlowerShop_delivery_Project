@@ -10,7 +10,7 @@ public class Test extends BaseTest {
         RegisterAccount registerAccount = new RegisterAccount(driver);
         registerAccount.clickRegisterButton();
         Thread.sleep(2000);
-        registerAccount.registerAccountInfo("dianaungureanu6@gmail.com","floridelivrat1#","floridelivrat1#");
+        registerAccount.registerAccountInfo("dianaungureanu7@gmail.com","floridelivrat1#","floridelivrat1#");
         registerAccount.clickRegisterAccount();
         registerAccount.clickEnterTheAccount();
         Thread.sleep(5000);
@@ -41,8 +41,8 @@ public class Test extends BaseTest {
     @org.testng.annotations.Test
     public void verifySearchSpecificProductAndViewDetails() throws InterruptedException{
         SearchProduct searchProduct= new SearchProduct(driver);
-        Thread.sleep(2000);
         searchProduct.specificSearchProduct("bambus");
+        Thread.sleep(2000);
         searchProduct.clickSearch();
         searchProduct.clickViewProduct();
         Thread.sleep(5000);
