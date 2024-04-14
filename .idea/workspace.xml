@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4116be-e17e-4967-8c37-6064f8dde873" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginLogoutAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterExistingEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterExistingEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,27 +36,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test.loginNewAccount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test.registerNewAccount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test.verifyRegisterErrorWithAnExistingEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test.verifySearchSpecificProductAndViewDetails.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/maria/IdeaProjects/Flower_delivery_Project/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Test.executor": "Run",
+    "TestNG.Test.loginLogoutNewAccount.executor": "Run",
+    "TestNG.Test.loginNewAccount.executor": "Run",
+    "TestNG.Test.registerNewAccount.executor": "Run",
+    "TestNG.Test.verifyRegisterErrorWithAnExistingEmail.executor": "Run",
+    "TestNG.Test.verifySearchSpecificProductAndViewDetails.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/maria/IdeaProjects/Flower_delivery_Project/src/main/java/org/example/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Test.verifySearchSpecificProductAndViewDetails">
-    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Test.loginLogoutNewAccount">
+    <configuration name="Test.loginLogoutNewAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Flower_delivery_Project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="loginLogoutNewAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test.loginLogoutNewAccount" />
+        <item itemvalue="TestNG.Test.loginNewAccount" />
         <item itemvalue="TestNG.Test.verifySearchSpecificProductAndViewDetails" />
         <item itemvalue="TestNG.Test.verifyRegisterErrorWithAnExistingEmail" />
-        <item itemvalue="TestNG.Test.loginNewAccount" />
         <item itemvalue="TestNG.Test.registerNewAccount" />
-        <item itemvalue="TestNG.Test" />
       </list>
     </recent_temporary>
   </component>
