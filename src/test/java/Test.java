@@ -10,21 +10,10 @@ public class Test extends BaseTest {
     public void registerNewAccount() throws InterruptedException {
         RegisterAccount registerAccount = new RegisterAccount(driver);
         registerAccount.clickRegisterButton();
-        registerAccount.registerAccountInfo("dianaungureanu51@gmail.com","floridelivrat1#","floridelivrat1#");
+        registerAccount.registerAccountInfo("dianaungureanu84@gmail.com","floridelivrat1#","floridelivrat1#");
         registerAccount.clickRegisterAccount();
         System.out.println("Registration done successfully");
         registerAccount.clickEnterTheAccount();
-        Thread.sleep(3000);
-    }
-
-    @org.testng.annotations.Test
-    public void verifyRegisterErrorWithAnExistingEmail() throws InterruptedException{
-        RegisterExistingEmail registerExistingEmail=new RegisterExistingEmail(driver);
-        registerExistingEmail.clickRegisterButton();
-        registerExistingEmail.registerAccountInfoSameEmail("dianaungureanu88@gmail.com","floridelivrat1#","floridelivrat1#");
-        registerExistingEmail.clickRegisterAccount();
-        System.out.println("There is already an account registered with this email address");
-        registerExistingEmail.verifyErrorMessageWithEmailAlredyRegistred();
         Thread.sleep(3000);
     }
 
@@ -40,6 +29,17 @@ public class Test extends BaseTest {
         loginLogoutAccount.clickLogoutButton();
         System.out.println("Logout done successfully");
         Thread.sleep(2000);
+    }
+
+    @org.testng.annotations.Test
+    public void verifyRegisterErrorWithAnExistingEmail() throws InterruptedException{
+        RegisterExistingEmail registerExistingEmail=new RegisterExistingEmail(driver);
+        registerExistingEmail.clickRegisterButton();
+        registerExistingEmail.registerAccountInfoSameEmail("dianaungureanu88@gmail.com","floridelivrat1#","floridelivrat1#");
+        registerExistingEmail.clickRegisterAccount();
+        System.out.println("There is already an account registered with this email address");
+        registerExistingEmail.verifyErrorMessageWithEmailAlredyRegistred();
+        Thread.sleep(3000);
     }
 
     @org.testng.annotations.Test
