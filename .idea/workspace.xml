@@ -48,7 +48,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/maria/IdeaProjects/Flower_delivery_Project/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Test.verifyRegisterErrorWithAnExistingEmail">
+  <component name="RunManager" selected="TestNG.Test.verifySearchSpecificProductAndViewDetails">
     <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Flower_delivery_Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test.verifyRegisterErrorWithAnExistingEmail" />
-        <item itemvalue="TestNG.Test" />
         <item itemvalue="TestNG.Test.verifySearchSpecificProductAndViewDetails" />
         <item itemvalue="TestNG.Test.loginLogoutNewAccount" />
+        <item itemvalue="TestNG.Test.verifyRegisterErrorWithAnExistingEmail" />
+        <item itemvalue="TestNG.Test" />
         <item itemvalue="TestNG.Test.loginNewAccount" />
       </list>
     </recent_temporary>
